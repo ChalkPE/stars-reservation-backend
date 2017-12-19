@@ -1,0 +1,33 @@
+{
+  "name": "stars-reservation-backend",
+  "version": "1.0.0",
+  "description": "한스타 사전예약 카운터 백엔드",
+  "main": "index.js",
+  "scripts": {
+    "start": "neutrino start",
+    "build": "neutrino build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChalkPE/stars-reservation-backend.git"
+  },
+  "keywords": [
+    "ensemble",
+    "stars"
+  ],
+  "author": "ChalkPE",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChalkPE/stars-reservation-backend/issues"
+  },
+  "homepage": "https://github.com/ChalkPE/stars-reservation-backend#readme",
+  "devDependencies": {
+    "@neutrinojs/node": "^8.0.13",
+    "neutrino": "^8.0.13"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "koa": "^2.4.1"
+  }
+}
