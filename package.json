@@ -28,6 +28,11 @@
   },
   "dependencies": {
     "axios": "^0.17.1",
-    "koa": "^2.4.1"
+    "koa": "^2.4.1",
+    "koa-chalk-logger": "^1.0.0",
+    "koa-conditional-get": "^2.0.0",
+    "koa-etag": "^3.0.0",
+    "koa-router": "^7.3.0",
+    "koa-static": "^4.0.2"
   }
 }
