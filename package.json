@@ -6,7 +6,9 @@
   "scripts": {
     "start": "neutrino start",
     "build": "neutrino build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -33,6 +35,8 @@
     "koa-conditional-get": "^2.0.0",
     "koa-etag": "^3.0.0",
     "koa-router": "^7.3.0",
-    "koa-static": "^4.0.2"
-  }
+    "koa-static": "^4.0.2",
+    "snyk": "^1.161.1"
+  },
+  "snyk": true
 }
